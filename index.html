@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoPulse - Live Market Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>Live Market Dashboard</h1>
+        <p class="subtitle">Real-time data fetched directly from CoinGecko API</p>
+        <div class="controls">
+            <input type="text" id="search-input" placeholder="Search by coin name (e.g., Bitcoin)...">
+            <button id="refresh-btn">Refresh Data</button>
+        </div>
+
+        <!-- Status Overlays (Visible during loading or network issues) -->
+        <div id="loading-state" class="status-message">⏳ Loading live crypto data...</div>
+        <div id="error-state" class="status-message error"></div>
+
+        <!-- Data Table Container -->
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Coin</th>
+                        <th>Price (USD)</th>
+                        <th>24h Change</th>
+                    </tr>
+                </thead>
+                <tbody id="crypto-table-body">
+                   
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
