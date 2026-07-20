@@ -3,7 +3,7 @@
 A clean, high-performance frontend dashboard built with Vanilla JavaScript, HTML5, and CSS3 that connects to a public API to fetch, render, and filter real-time cryptocurrency metrics. This project focuses heavily on asynchronous data streams, client-side state management, and resilient error boundary interfaces.
 
 ## 🚀 Live Demo
-- **Deployment URL:** [Insert your Vercel / Netlify / GitHub Pages link here]
+- **Deployment URL:** https://github.com/user-attachments/assets/315b0155-3034-4a9e-99db-83c2e42e5241
 
 ## ✨ Features Demonstrated
 
